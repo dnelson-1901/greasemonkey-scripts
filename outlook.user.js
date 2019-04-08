@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name     Outlook Online whitespace remover
-// @version  1.0
+// @description    Removes all redundant whitespace from mailbox view
+// @version  1.1
 // @grant    GM_addStyle
 // @include  https://outlook.office.com/*
 // ==/UserScript==

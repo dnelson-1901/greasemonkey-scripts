@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Outlook Online whitespace remover
 // @description    Removes all redundant whitespace from mailbox view
-// @version  1.2019.04.08.01
+// @version  1.2019.05.09.01
 // @grant    GM_addStyle
 // @include  https://outlook.office.com/*
 // ==/UserScript==
@@ -36,6 +36,11 @@ html[dir="ltr"] ._12RFwqyytlNdLGTEvbkGEF {
 /* index group line */
 ._3am_5-Qakpw6Y1uciOunxX {
 	height: auto !important;
+}
+
+/* index checkbox column */
+._2mUsG1A3iMqm06ISyGknWQ {
+	min-height: auto !important;
 }
 
 /* folder list */

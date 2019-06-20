@@ -2,7 +2,7 @@
 // @name     Outlook Online whitespace remover
 // @description    Removes all redundant whitespace from mailbox view
 // @downloadURL    https://bitbucket.org/dnelson/greasemonkey-scripts/raw/tip/outlook.user.js
-// @version  1.2019.05.09.02
+// @version  1.2019.06.20.01
 // @grant    GM_addStyle
 // @include  https://outlook.office.com/*
 // ==/UserScript==
@@ -25,27 +25,40 @@ this.GM_addStyle = (aCss) => {
 var css = `
 
 /* index header */
-html[dir="ltr"] ._12RFwqyytlNdLGTEvbkGEF {
-	padding: inherit !important;
+._12RFwqyytlNdLGTEvbkGEF, /* old */
+.R13rCAdCs2xraNrPX7bVq, /* current */
+zz {
+  padding: unset !important;
 }
 
 /* index line */
-._3NWSCOrMG7qAJvS4DNJDxC, .kShdRtQbaZr987nI2CuD5, .VRsPBiUohxRKvkOKoyH9O {
+._3NWSCOrMG7qAJvS4DNJDxC,  /* old */
+.kShdRtQbaZr987nI2CuD5, /* old */
+.VRsPBiUohxRKvkOKoyH9O, /* old */
+._3RNhHhUHeoKc1ufD-hcz7q, /* current */
+zz {
 	height: auto !important;
 }
 
 /* index group line */
-._3am_5-Qakpw6Y1uciOunxX {
+._3am_5-Qakpw6Y1uciOunxX, /* old */
+._3Ib_26e5i7pKHbAhry3OpA, /* current */
+zz {
 	height: auto !important;
 }
 
 /* index checkbox column */
-._2mUsG1A3iMqm06ISyGknWQ {
+._2mUsG1A3iMqm06ISyGknWQ, /* old */
+._2Cj0mOm3MaOSjSdUp5B4_7, /* current */
+zz {
 	min-height: auto !important;
 }
 
 /* folder list */
-._2DD-RIgHo7Z3_Rr8o0zxLz, ._34_bqC0c1-8H3B0lGzop-9 {
+._2DD-RIgHo7Z3_Rr8o0zxLz, /* old */
+._34_bqC0c1-8H3B0lGzop-9, /* old */
+.qDw7SZ9r6S7r0_qZS1aIG, /* current */
+zz {
 	height: auto !important;
 }
 

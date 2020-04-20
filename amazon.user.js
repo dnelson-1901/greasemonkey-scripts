@@ -11,7 +11,8 @@ var css = `
 
 [data-component-type="sp-sponsored-result"],
 [data-feature-name="sponsoredProducts"],
-[data-feature-name="sponsoredProducts2"]
+[data-feature-name="sponsoredProducts2"],
+[data-ad-id]
 {
 	outline: solid 3px #ddbb88;
 	background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#ffeedd 0.5em,#ffeedd 0.6em );

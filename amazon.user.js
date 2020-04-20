@@ -3,7 +3,7 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://bitbucket.org/dnelson/greasemonkey-scripts/raw/tip/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2020.04.20.1
+// @version     1.2020.04.20.2
 // @grant       none
 // ==/UserScript==
 

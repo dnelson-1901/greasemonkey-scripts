@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Gmail Fixed Font
 // @description    Fixed-font message bodies for Gmail, plus whitespace removal
-// @downloadURL    https://bitbucket.org/dnelson/greasemonkey-scripts/raw/tip/gmail.user.js
+// @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/gmail.user.js
 // @version        1.2020.04.20.1
 // @include        http://mail.google.com/*
 // @include        https://mail.google.com/*

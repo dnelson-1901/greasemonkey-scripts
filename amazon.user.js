@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Amazon ad marker
 // @description make it more obvious which entries are ads
-// @downloadURL https://bitbucket.org/dnelson/greasemonkey-scripts/raw/tip/amazon.user.js
+// @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
 // @version     1.2020.04.20.2
 // @grant       none

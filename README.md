@@ -2,8 +2,8 @@
 
 Misc greasemonkey scripts, available here for easy remote syncing.
 
-* amazon: highlights sponsored products with a yellow background
+* amazon: highlights sponsored products with a yellow background and border
 
-* gmail: collapse a whole lot of whitespace
+* gmail: collapses a whole lot of whitespace, ensures that plaintext messages use monospace font
 
-* outlook: collapase a whole lot of whitespace - doubles the number of maessages visible in folder views
+* outlook: collapses a whole lot of whitespace - doubles the number of messages visible in folder views!

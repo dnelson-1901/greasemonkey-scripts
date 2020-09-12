@@ -7,3 +7,6 @@ Misc greasemonkey scripts, available here for easy remote syncing.
 * gmail: collapses a whole lot of whitespace, ensures that plaintext messages use monospace font
 
 * outlook: collapses a whole lot of whitespace - doubles the number of messages visible in folder views!
+
+* yahoo: shrings the large search bar at the top of the screen, ensures that plaintext messages use monospace font
+

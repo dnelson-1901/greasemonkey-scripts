@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Okta Password Jammer unJammer
-// @version     1
+// @version     1.2020.12.08.1
 // @grant       none
 // @description Removes the hidden form fields that mess up browser password saving
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/okta-unjammer.user.js

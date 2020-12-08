@@ -4,7 +4,7 @@
 // @grant       none
 // @description Removes the hidden form fields that mess up browser password saving
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/okta-unjammer.user.js
-// @include     https://*.okta.com/login/login.htm
+// @include     https://*.okta.com/*
 // @run-at      document-end
 // ==/UserScript==
 
@@ -13,7 +13,7 @@
 function fixup() 
 {
 	console.log("CAllback!");
-	var nodes = document.querySelectorAll("input[id^=okta_hidden_pass]");
+	var nodes = document.querySelectorAll("input[id^=okta_hidden_pass_]");
 	console.log("Found "+nodes.length+" fields");
 
 	var removed = 0;

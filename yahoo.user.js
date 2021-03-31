@@ -2,7 +2,7 @@
 // @name           Yahoo Mail Fixed Font
 // @description    Fixed-font message bodies for Yahoo Mail
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/yahoo.user.js
-// @version        1.2021.03.02.2
+// @version        1.2021.03.30.1
 // @include        https://mail.yahoo.com/*
 // @include        https://*.mail.yahoo.com/*
 // @grant          GM_addStyle
@@ -17,6 +17,7 @@ var css = `
 }
 
 /* Remove grey navbar at top */
+._yb_xonga,
 ._yb_vxqns {
   display: none;
 }

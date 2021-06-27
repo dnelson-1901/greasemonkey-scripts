@@ -2,7 +2,7 @@
 // @name     Outlook Online whitespace remover
 // @description    Removes all redundant whitespace from mailbox view
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/outlook.user.js
-// @version  1.2021.03.07.1
+// @version  1.2021.06.26.1
 // @grant    GM_addStyle
 // @include  https://outlook.office.com/*
 // @include  https://outlook.live.com/*
@@ -36,7 +36,8 @@ zz {
 ._3NWSCOrMG7qAJvS4DNJDxC,  /* old */
 .kShdRtQbaZr987nI2CuD5, /* old */
 .VRsPBiUohxRKvkOKoyH9O, /* old */
-._3RNhHhUHeoKc1ufD-hcz7q, /* current */
+._3RNhHhUHeoKc1ufD-hcz7q, /* old */
+._316svK5096JRBjmaETrl2_, /* current */
 zz {
 	height: auto !important;
 }
@@ -51,13 +52,15 @@ zz {
 
 /* index checkbox column */
 ._2mUsG1A3iMqm06ISyGknWQ, /* old */
-._2Cj0mOm3MaOSjSdUp5B4_7, /* current */
+._2Cj0mOm3MaOSjSdUp5B4_7, /* old */
+._2xkBpjoOewQl-YKzYlwpxg, /* current */
 zz {
 	min-height: auto !important;
 }
 
 /* subject column */
-.YWkvAfVxfWoYoGc_xj-4c,
+.YWkvAfVxfWoYoGc_xj-4c, /* old */
+._1kjvmojDabff5PKSUKF8FM, /* current */
 zz {
   height: auto !important;
 }
@@ -65,7 +68,8 @@ zz {
 /* folder list */
 ._2DD-RIgHo7Z3_Rr8o0zxLz, /* old */
 ._34_bqC0c1-8H3B0lGzop-9, /* old */
-.qDw7SZ9r6S7r0_qZS1aIG, /* current */
+.qDw7SZ9r6S7r0_qZS1aIG, /* old */
+._2f5JzhIau1fYVnCdnF6jed, /* current */
 zz {
 	height: auto !important;
 }

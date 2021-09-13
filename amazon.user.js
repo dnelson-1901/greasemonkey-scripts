@@ -3,12 +3,13 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2021.02.13.1
+// @version     1.2021.09.12.1
 // @grant       none
 // ==/UserScript==
 
 var css = `
 
+[cel_widget_id="sp_detail"],
 [data-component-type="sp-sponsored-result"],
 [data-feature-name="sponsoredProducts"],
 [data-feature-name="sponsoredProducts2"],

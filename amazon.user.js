@@ -3,7 +3,7 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2021.09.12.1
+// @version     1.2021.09.18.1
 // @grant       none
 // ==/UserScript==
 
@@ -20,7 +20,7 @@ var css = `
 [id^="sims-consolidated-"],
 [data-component-type^="sbv-"],
 [class^="sbv-"],
-[data-ad-id]
+[data-ad-id],
 [data-aid]
 {
 	outline: solid 3px #ddbb88;

@@ -2,9 +2,10 @@
 // @name     Outlook Online whitespace remover
 // @description    Removes all redundant whitespace from mailbox view
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/outlook.user.js
-// @version  1.2021.06.26.1
+// @version  1.2021.10.04.1
 // @grant    GM_addStyle
 // @include  https://outlook.office.com/*
+// @include  https://outlook.office365.com/*
 // @include  https://outlook.live.com/*
 // ==/UserScript==
 

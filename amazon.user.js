@@ -3,7 +3,7 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2021.09.18.1
+// @version     1.2021.10.11.1
 // @grant       none
 // ==/UserScript==
 
@@ -21,7 +21,8 @@ var css = `
 [data-component-type^="sbv-"],
 [class^="sbv-"],
 [data-ad-id],
-[data-aid]
+[data-aid],
+.sp-shoveler
 {
 	outline: solid 3px #ddbb88;
 	background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#ffeedd 0.5em,#ffeedd 0.6em );

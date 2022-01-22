@@ -1,0 +1,4 @@
+/* Use system colors for links */
+
+:link, a:link { text-decoration: underline; color: LinkText; }
+:visited, a:visited { color: VisitedText; }

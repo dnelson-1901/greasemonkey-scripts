@@ -3,7 +3,7 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2021.11.07.1
+// @version     1.2022.03.12.1
 // @grant       none
 // ==/UserScript==
 
@@ -18,6 +18,7 @@ var css = `
 [data-cel-widget^="sp_detail"],
 [data-cel-widget^="adplacements"],
 [data-cel-widget*="SponsoredProducts"],
+[data-cel-widget*="FEATURED_ASINS"],
 [data-component-props*="sp_delivered"],
 [id^="sims-consolidated-"],
 [data-component-type^="sbv-"],

@@ -3,7 +3,7 @@
 // @description Allow collapsing of sidebar
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/discord.user.js
 // @include     https://*.discord.com/channels/*
-// @version     1.2022.04.14.3
+// @version     1.2022.04.14.4
 // @grant       none
 // ==/UserScript==
 
@@ -12,7 +12,11 @@ function addbutton()
   /* A button that floats above all other content. */
   var button=`
 <div>
-  <button id=toggle style="position: absolute; z-index: 100;">
+  <button 
+    id=toggle 
+    style="position: absolute; z-index: 100;"
+    title="Toggle Sidebar"
+  >
     <<
   </button>
 </div>

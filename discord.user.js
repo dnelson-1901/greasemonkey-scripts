@@ -3,7 +3,7 @@
 // @description Allow collapsing of sidebar
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/discord.user.js
 // @include     https://*.discord.com/channels/*
-// @version     1.2022.04.14.4
+// @version     1.2022.04.16.1
 // @grant       none
 // ==/UserScript==
 
@@ -41,6 +41,9 @@ function addbutton()
     }
   };
   console.log("added handler");
+
+  /* also make the sidebar resizable */
+  s.style.resize = "horizontal";
 };
 
 /* TODO: figure out how to make the function fire as soon as the sidebar is

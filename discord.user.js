@@ -3,7 +3,8 @@
 // @description Allow collapsing of sidebar
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/discord.user.js
 // @include     https://*.discord.com/channels/*
-// @version     1.2022.06.27.1
+// @include     https://discord.com/channels/*
+// @version     1.2022.09.08.1
 // @grant       none
 // ==/UserScript==
 

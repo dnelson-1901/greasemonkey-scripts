@@ -2,7 +2,7 @@
 // @name           Gmail Fixed Font
 // @description    Fixed-font message bodies for Gmail, plus whitespace removal
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/gmail.user.js
-// @version        1.2022.11.21.1
+// @version        1.2022.11.21.2
 // @include        http://mail.google.com/*
 // @include        https://mail.google.com/*
 // @include        http://*.mail.google.com/*
@@ -88,6 +88,9 @@ css += ".PY > .G6 { height: auto !important; margin: 0px !important; }";
 css += ".HY .H5 { margin: 0 !important; }";
 css += ".H0, .Oa { line-height: inherit !important; }";
 css += ".Ol.Nk .N7, .H2, .Nk { height: auto !important; }";
+
+// compact reply buttons
+css += ".amn > .ams { height: auto !important; }";
 
 // remove add-ons bar on right edge
 css += ".bAw { display: none; !important }";

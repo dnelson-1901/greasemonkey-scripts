@@ -2,7 +2,7 @@
 // @name           Gmail Fixed Font
 // @description    Fixed-font message bodies for Gmail, plus whitespace removal
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/gmail.user.js
-// @version        1.2020.04.20.1
+// @version        1.2022.11.21.1
 // @include        http://mail.google.com/*
 // @include        https://mail.google.com/*
 // @include        http://*.mail.google.com/*
@@ -40,7 +40,7 @@ css += "td.y3 { display: none !important; }";
 css += `
 
 /* Plain-text Message Body */
-.a3s, .g6 { font: 13px monospace,king !important; }
+.a3s, .g6 { font: 14px monospace,king !important; }
 
 /* Shrink stupid "Be Careful with this message" message */
 .bzp, .bzp *, .bzq, .bzq * {
@@ -82,6 +82,12 @@ css += ".TN { height: auto !important; }";
 css += ".qj { margin-right: 0.5em; !important; }";
 css += ".wT { max-width: inherit !important; min-width: inherit !important; }";
 css += ".aeN.aeN { max-width: inherit !important; min-width: inherit !important; }";
+
+// compact filter buttons
+css += ".PY > .G6 { height: auto !important; margin: 0px !important; }";
+css += ".HY .H5 { margin: 0 !important; }";
+css += ".H0, .Oa { line-height: inherit !important; }";
+css += ".Ol.Nk .N7, .H2, .Nk { height: auto !important; }";
 
 // remove add-ons bar on right edge
 css += ".bAw { display: none; !important }";

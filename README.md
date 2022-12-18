@@ -4,7 +4,7 @@ Misc greasemonkey scripts, available here for easy remote syncing.
 
 * amazon: highlights sponsored products with a yellow background and border
 
-* discord: adds a button to giggle the channel sidebar, to free up some space
+* discord: adds a button to toggle the channel sidebar, to free up some space
 
 * gmail: collapses a whole lot of whitespace, ensures that plaintext messages use monospace font
 

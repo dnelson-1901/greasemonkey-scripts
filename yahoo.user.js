@@ -2,7 +2,7 @@
 // @name           Yahoo Mail Fixed Font
 // @description    Fixed-font message bodies for Yahoo Mail
 // @downloadURL    https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/yahoo.user.js
-// @version        1.2021.10.11.1
+// @version        1.2023.09.17.1
 // @include        https://mail.yahoo.com/*
 // @include        https://*.mail.yahoo.com/*
 // @grant          GM_addStyle
@@ -17,7 +17,7 @@ var css = `
 }
 
 /* Remove grey navbar at top */
-div[id="ybar-inner-wrap"] > div:nth-child(1) {
+div[id="ybar-inner-wrap"] > div:nth-child(2) {
   display: none;
 }
 
@@ -27,7 +27,7 @@ div[role="banner"] > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
 	line-height: inherit !important;
 }
 div[id="ybar"],
-div[id="ybar-inner-wrap"] > div:nth-child(2) > div:nth-child(1),
+div[id="ybar-inner-wrap"] > div:nth-child(3) > div:nth-child(1),
 ._yb_11lnn {
   height: auto !important;
 }
@@ -54,11 +54,6 @@ section[role="banner"]
 /* shrink button bar content */
 [data-test-id="message-toolbar"] {
 	padding: inherit !important;
-}
-
-/* make ads less intrusive */
-div.ek_BB > div > a[rel="noreferrer noopener"] {
-  opacity: 10%;
 }
 
 

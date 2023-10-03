@@ -3,7 +3,7 @@
 // @description make it more obvious which entries are ads
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/amazon.user.js
 // @include     https://www.amazon.com/*
-// @version     1.2023.09.10.1
+// @version     1.2023.10.02.1
 // @grant       none
 // ==/UserScript==
 
@@ -28,7 +28,8 @@ div.celwidget:has(.sp_desktop_sponsored_label),
 [data-aid],
 div[data-ad-feedback]+div,
 .s-shopping-adviser,
-.sp-shoveler
+.sp-shoveler,
+.AdHolder
 {
 	outline: solid 3px #ddbb88;
 	background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#ffeedd 0.5em,#ffeedd 0.6em );

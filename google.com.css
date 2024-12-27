@@ -2,8 +2,8 @@
 ==UserCSS==
 @name         Google ad marker
 @description  make it more obvious which entries are ads
-@match        https://www.google.com/search
-@version      1.2024.12.27.1
+@match        https://www.google.com/search*
+@version      1.2024.12.27.2
 @downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.css
 ==/UserCSS==
 */
@@ -13,6 +13,7 @@
 div[id=taw]
 /*, div[aria-label=Ads] */
 /*, div[id=tads] */
+, div[id=atvcap]
 , div[data-mcp]
 {
   outline: solid 3px #ddbb88;

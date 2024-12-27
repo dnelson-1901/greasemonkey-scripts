@@ -3,8 +3,8 @@
 @name         Google ad marker
 @description  make it more obvious which entries are ads
 @match        https://www.google.com/search*
-@version      1.2024.12.27.2
-@downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.css
+@version      1.2024.12.27.3
+@downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.user.css
 ==/UserCSS==
 */
 

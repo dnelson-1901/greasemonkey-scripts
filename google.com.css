@@ -1,0 +1,21 @@
+/*
+==UserCSS==
+@name         Google ad marker
+@match        https://www.google.com/search/*
+@version      1.2024.12.26.1
+@downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.css
+==/UserCSS==
+*/
+
+/* Mark ads and AI */
+
+div[id=taw]
+/*, div[aria-label=Ads] */
+/*, div[id=tads] */
+, div[data-mcp]
+{
+  outline: solid 3px #ddbb88;
+  background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#ffeedd 0.5em,#ffeedd 0.6em );
+  background-size: inherit;
+  outline-offset: -3px;
+}

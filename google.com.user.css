@@ -3,21 +3,28 @@
 @name         Google ad marker
 @description  make it more obvious which entries are ads
 @match        https://www.google.com/search*
-@version      1.2024.12.27.4
+@version      1.2025.05.18.1
 @downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.user.css
 ==/UserCSS==
 */
 
-/* Mark ads and AI */
-
+/* Mark ads */
 div[id=taw]
 , div[aria-label=Ads]
 , div[id=tads]
 , div[id=atvcap]
-, div[data-mcp]
 {
   outline: solid 3px #ddbb88;
+  outline-offset: -3px;
   background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#ffeedd 0.5em,#ffeedd 0.6em );
   background-size: inherit;
+}
+
+/* Mark AI */
+div[data-mcp]
+{
+  outline: solid 3px #000;
   outline-offset: -3px;
+  background-image: repeating-linear-gradient(45deg, #fff, #fff 0.5em,#eee 0.5em,#eee 0.6em );
+  background-size: inherit;
 }

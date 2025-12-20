@@ -4,7 +4,7 @@
 // @downloadURL https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/discord.user.js
 // @include     https://*.discord.com/channels/*
 // @include     https://discord.com/channels/*
-// @version     1.2023.10.31.1
+// @version     1.2025.12.20.1
 // @grant       none
 // ==/UserScript==
 
@@ -23,9 +23,11 @@ function addbutton()
 </div>
 `;
 
-  /* Find the sidebar.  All discord classes have random garbage at the end,
-   * so we have to use a prefix match.  */
-  var s = document.querySelector("[class^=sidebar]");
+  /* Find the sidebar.  Discord keeps changing how they mangle their class
+   * names so we have to use a substring match and hope just one element
+   * matches.
+   */
+  var s = document.querySelector("[class*=sidebar]");
 
   /* Insert our button right after it. */
   s.insertAdjacentHTML("afterend", button);

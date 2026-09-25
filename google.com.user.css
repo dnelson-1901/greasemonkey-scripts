@@ -3,7 +3,7 @@
 @name         Google ad marker
 @description  make it more obvious which entries are ads
 @match        https://www.google.com/search*
-@version      1.2026.03.18.1
+@version      1.2026.09.25.1
 @downloadURL  https://github.com/dnelson-1901/greasemonkey-scripts/raw/master/google.com.user.css
 ==/UserCSS==
 */
@@ -23,6 +23,7 @@ div[id=taw]
 
 /* Mark AI */
 div[data-mcp]
+, div[data-aim]
 {
   outline: solid 3px #000;
   outline-offset: -3px;
